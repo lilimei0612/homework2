@@ -1,0 +1,310 @@
+* {
+	margin: 0;
+    padding: 0;
+			}
+
+.header{
+	width: 999px;
+	height: 100px;
+	/*background: #FF0000;*/
+	margin:0 auto;
+}
+.header .logo{
+	width: 250px;
+	height: 30px;
+/*	background: #0f0;*/
+	float: left;
+	margin-left: 20px;
+	margin-top: 39px;
+}
+
+.header .search{
+	width: 230px;
+	height: 30px;
+	background: #00f;
+	float: right;
+	margin-top: 39px;
+	margin-right: 18px;
+	border: 1px solid #e5e5e5;
+}
+.header .search input[type=text]{
+	width: 197px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1;
+	float: left;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.header .search input[type=submit]{
+	width: 33px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1 url(../img/search.png) no-repeat center center;
+	float: right;
+}
+.nav{
+	width: 999px;
+	height: 60px;
+	background: #000000;
+	margin: 0 auto;
+}
+.nav ul{
+	padding-left: 27px;
+	width: 999px;
+	height: 60px;
+	box-sizing: border-box;
+}
+
+.nav ul li{
+	list-style: none;
+	float: left;
+	width: 119px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border-right: 1px solid #494949;
+}
+.nav ul li:last-child{
+	border-right: none;
+}
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+.banner{
+	width: 999px;
+	height: 465px;
+	margin: 0 auto;
+}
+
+.body{
+	width: 999px;
+	height: 240px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	box-sizing: border-box
+}
+
+.body .left{
+	width: 499px;
+	height: 240px;
+	float: left;
+	
+}
+
+.left  h3{
+	padding-left: 20px;
+	padding-top:30px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.left ul{
+	margin-left: 30px;
+	margin-top:20px ;
+		
+}
+.left ul li{opacity: 0.5;
+     width: 500px;
+     font: 13px "Microsoft YaHei";
+     float: left;
+     line-height: 27px;
+     color: #666666;	
+}
+
+.left ul li span{
+	float: right;
+	padding-right: 30px;
+	
+}
+
+.body .mid{
+	width:240px ;
+	height: 240px;
+	background: #EEEEEE;
+	margin: 0 auto;
+	float: left;
+	margin-left: 30px;
+
+}
+
+.mid h3{
+	padding-left: 20px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.mid p{
+	padding-top: 10px;
+	padding-left: 20px;
+	font: 13px "microsoft yahei";
+}
+
+.mid p:last-child{
+	padding-top: 30px;
+	padding-left: 20px;
+	font: 13px "microsoft yahei";
+	color:#666666;
+}
+
+.body .left .right{
+	width:245px ;
+	height: 240px;
+	float: right; 
+}
+
+.right h3{
+	padding-left: 20px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.right  p{
+	padding-top: 10px;
+	padding-left: 20px;
+	font: 13px "microsoft yahei";
+}
+
+.right .flowers{
+	float: right;
+}
+
+.right .more{
+	float: left;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+
+.body2 {
+	width: 999px;
+	height: 230px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.body2 h3{
+	padding-left: 5px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.body2 .box1{
+	float: left;
+	width: 200px;
+	padding-right: 60px;
+}
+
+.body2 .box2{
+	float: left;
+	width: 200px;
+	padding-right: 60px;
+}
+
+.body2 .box3{
+	float: left;
+	padding-right: 60px;
+	width: 200px;
+}
+
+.body2 .box4{
+	float: right;
+	
+	width: 200px;
+	padding-right: 18px;
+}
+
+.foot{
+	width: 999px;
+	height: 250px;
+	margin: 0 auto;
+	background: #E5E5E5;
+	margin-top: 100px;
+}
+
+.center{
+	float: left;
+	width: 490px;
+	height: 230px;
+	margin-right: 9px;
+}
+
+.center h3{
+	font: 18px "microsoft yahei";
+	border-bottom: 1px solid #808080;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.center li{
+	list-style: none;
+	background: url(../img/item_icon.png) no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.center ul{
+	float: left;
+	
+}
+
+.center ul{
+	float: right;
+	padding-right: 30px;
+}
+
+.center ul:last-child{
+	float: left;
+	padding-left: 10px;
+}
+
+.technology{
+	float: left;
+	width: 240px;
+	height: 240px;
+}
+
+.technology h3{
+	font: 18px "microsoft yahei";
+	border-bottom: 1px solid #808080;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.technology li{
+	list-style: none;
+	background: url(../img/item_icon.png) no-repeat;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	clear: both;
+}
+.technology ul{
+	padding-left: 10px;
+}
+.market{
+	float: right;
+	width: 249px;
+	height: 200px;
+	margin-left: 9px;
+}
+
+.market h3{
+	font: 18px "microsoft yahei";
+	border-bottom: 1px solid #808080;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.market .china{
+	text-align: center;
+}
